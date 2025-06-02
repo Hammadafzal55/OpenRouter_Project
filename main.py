@@ -14,7 +14,7 @@ st.markdown("""
 
 #Api key load krne k liye
 load_dotenv()
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
 
 #Models ki list
 Models = {

@@ -40,7 +40,7 @@ def get_response(model_id, prompt):
     body = {
         "model": model_id,
         "messages": [{ "role": "user","content": prompt }],
-        "max_tokens": max_tokens,
+        "max_tokens": 1500,
     }
 
     res = requests.post(url, headers=headers, data=json.dumps(body))

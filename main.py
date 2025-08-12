@@ -76,4 +76,4 @@ if st.button("🚀 Submit"):
         st.markdown(f"### 📌 Model: {selected_model}")
         with st.spinner("Thinking..."):
             result = get_response(model_id, prompt)
-        st.success(result)
+        st.markdown(result)

@@ -18,15 +18,15 @@ OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 #Models ki list
 Models = {
-    "Gemini 2.5 (Google)": "google/gemini-2.5-flash-preview-05-20",
+    "Gemini 2.0 (Google)": "google/gemini-2.0-flash-exp:free",
     "Deepseek R1 (DeepSeek)": "deepseek/deepseek-r1-0528-qwen3-8b",
     "Phi 4 Reasoning Plus (Microsoft)": "microsoft/phi-4-reasoning-plus",
     "Devstral Small (Mistral)": "mistralai/devstral-small",
     "Llama 3.3 (Nividia)": "nvidia/llama-3.3-nemotron-super-49b-v1",
     "Gemma 3n 4B (Google)": "google/gemma-3n-e4b-it",
-    "Sarvam-M (Sarvam AI)": "sarvamai/sarvam-m",
-    "Llama 3.3 8B Instruct (Meta)": "meta-llama/llama-3.3-8b-instruct",
-    "DeepHermes 3 (Nous)": "nousresearch/deephermes-3-mistral-24b-preview",
+    "Sarvam-M (Sarvam AI)": "sarvamai/sarvam-m:free",
+    "Llama 3.3 70B Instruct (Meta)": "meta-llama/llama-3.3-70b-instruct:free",
+    "DeepHermes 3 (Nous)": "nousresearch/deephermes-3-llama-3-8b-preview:free",
     "Qwen3 30B A3B (Qwen)": "qwen/qwen3-30b-a3b"
 }
 
